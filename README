@@ -1,0 +1,24 @@
+Examples provided by Jason Austin
+http://jasonawesome.com
+
+Example code from the September 21st meetup of TriPUG at NC State.
+
+To run this code, you will need to download and install Zend Framework
+library version 1.10.8 in the /inc directory.
+
+Represented here are:
+
+Zend_Config   - config.php
+Zend_Date     - date.php
+Zend_Feed     - feed.php
+Zend_Filter   - filter.php
+Zend_Form     - form.php
+Zend_Log      - log.php, log_ajax.php, log_firebug.php
+Zend_Mail     - mail.php
+Zend_Registry - registry.php
+Zend_Validate - validate.php
+Zend_Rest     - ws_server.php, ws_client.php
+
+
+This code is released under the Creative Commons Attribution-ShareAlike 
+license.  Details here:  http://creativecommons.org/licenses/by-sa/3.0/

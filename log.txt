@@ -1,0 +1,19 @@
+2010-09-21T13:05:59-04:00 INFO (6): Informational message
+2010-09-21T13:06:27-04:00 INFO (6): Informational message
+2010-09-21T13:06:27-04:00 ERR (3): SOMETHING BARFED!
+2010-09-21T13:08:38-04:00 INFO (6): Informational message
+2010-09-21T13:08:38-04:00 ERR (3): SOMETHING BARFED!
+2010-09-21T13:08:38-04:00 ERR (3): exception 'Exception' with message 'some exception from somewhere' in /usr/local/zend/apache2/htdocs/tripugzf/log.php:13
+Stack trace:
+#0 {main}
+hello Informational message
+hello SOMETHING BARFED!
+hello exception 'Exception' with message 'some exception from somewhere' in /usr/local/zend/apache2/htdocs/tripugzf/log.php:19
+Stack trace:
+#0 {main}
+2010-09-21T13:12:49-04:00 INFO (6): Informational message
+2010-09-21T13:12:49-04:00 ERR (3): SOMETHING BARFED!
+2010-09-21T13:12:49-04:00 ERR (3): exception 'Exception' with message 'some exception from somewhere' in /usr/local/zend/apache2/htdocs/tripugzf/log.php:19
+Stack trace:
+#0 {main}
+2010-09-21T13:12:49-04:00 AUTHENTICATION (8): someone had an invalid authentication attempt
