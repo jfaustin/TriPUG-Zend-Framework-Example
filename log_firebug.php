@@ -28,3 +28,10 @@ $channel->flush();
 $response->sendHeaders();
 
 echo "Successful AJAX query!";
+
+
+
+
+
+
+
