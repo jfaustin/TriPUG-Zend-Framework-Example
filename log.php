@@ -1,11 +1,11 @@
 <?php
 set_include_path(realpath(dirname(__FILE__) . '/inc'));
 
+/*
 require_once 'Zend/Log.php';
 require_once 'Zend/Log/Writer/Stream.php';
 require_once 'Zend/Log/Formatter/Simple.php';
 
-/*
 $writer = new Zend_Log_Writer_Stream('log.txt');
 
 //$formatter = new Zend_Log_Formatter_Simple('hello %message%' . PHP_EOL);
@@ -28,6 +28,7 @@ $logger->authentication('someone had an invalid authentication attempt');
 
 
 /*
+require_once 'Zend/Log.php';
 require_once 'Zend/Log/Writer/Firebug.php';
 require_once 'Zend/Controller/Request/Http.php';
 require_once 'Zend/Controller/Response/Http.php';

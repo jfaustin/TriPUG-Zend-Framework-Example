@@ -1,11 +1,12 @@
 <?php
+set_include_path(realpath(dirname(__FILE__) . '/inc'));
 
 /**
  * General filtering for alphanumeric characters only
  * 
  */
 /*
-require_once 'inc/Zend/Filter/Alnum.php';
+require_once 'Zend/Filter/Alnum.php';
 
 $filter = new Zend_Filter_Alnum();
 
@@ -38,9 +39,9 @@ echo $filter->filter($input);
  * 
  */
 /*
-require_once 'inc/Zend/Filter.php';
-require_once 'inc/Zend/Filter/Alpha.php';
-require_once 'inc/Zend/Filter/StringToLower.php';
+require_once 'Zend/Filter.php';
+require_once 'Zend/Filter/Alpha.php';
+require_once 'Zend/Filter/StringToLower.php';
 
 $filterChain = new Zend_Filter();
 $filterChain->addFilter(new Zend_Filter_Alpha());
@@ -70,7 +71,7 @@ echo $filterChain->filter($input);
  * 
  */
 /*
-require_once 'inc/Zend/Filter/Interface.php';
+require_once 'Zend/Filter/Interface.php';
 
 class RemoveColonFilter implements Zend_Filter_Interface
 {
@@ -103,7 +104,7 @@ echo $filter->filter($input);
  * Zend_Filter_Input example
  */
 /*
-require_once 'inc/Zend/Filter/Input.php';
+require_once 'Zend/Filter/Input.php';
 
 $validators = array(
 	'*'    => 'NotEmpty',

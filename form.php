@@ -1,5 +1,4 @@
 <?php 
-
 set_include_path(realpath(dirname(__FILE__) . '/inc'));
 
 require_once 'Zend/Form.php';
@@ -68,7 +67,7 @@ class LoginForm extends Zend_Form
 $view = new Zend_View();
 $view->doctype('XHTML1_TRANSITIONAL');
 
-$form = new MyForm();
+$form = new LoginForm();
 $form->setView($view);
 
 // if the form is submitted

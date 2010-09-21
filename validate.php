@@ -1,11 +1,13 @@
 <?php
+set_include_path(realpath(dirname(__FILE__) . '/inc'));
+
 /**
  * General validator usage of the alphanumeric validator
  * 
  * 
  */
 /*
-require_once 'inc/Zend/Validate/Alnum.php';
+require_once 'Zend/Validate/Alnum.php';
 
 $validator = new Zend_Validate_Alnum();
 
@@ -50,7 +52,7 @@ if ($validator->isValid($input)) {
  */
 
 /*
-require_once 'inc/Zend/Validate/Between.php';
+require_once 'Zend/Validate/Between.php';
 
 $options = 	array(
 	'min' => 0, 
@@ -94,9 +96,9 @@ if ($validator->isValid($input)) {
  * 
  */
 /*
-require_once 'inc/Zend/Validate.php';
-require_once 'inc/Zend/Validate/Alnum.php';
-require_once 'inc/Zend/Validate/StringLength.php';
+require_once 'Zend/Validate.php';
+require_once 'Zend/Validate/Alnum.php';
+require_once 'Zend/Validate/StringLength.php';
 
 $validatorChain = new Zend_Validate();
 
@@ -138,7 +140,7 @@ if ($validatorChain->isValid($input)) {
  */
 
 /*
-require_once 'inc/Zend/Validate/Abstract.php';
+require_once 'Zend/Validate/Abstract.php';
 
 class MacValidate extends Zend_Validate_Abstract
 {

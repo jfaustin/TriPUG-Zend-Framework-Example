@@ -18,9 +18,7 @@ class RegistryExample
 	public function __construct()
 	{
 		error_reporting (E_ALL ^ E_NOTICE);
-		
 		echo '$myVar is set to "' . $myVar . '"<br />';
-		
 		echo 'myVar in the registry is set to "' . Zend_Registry::get('myVar') . '"<br />';
 	}
 }

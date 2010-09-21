@@ -1,5 +1,4 @@
 <?php 
-
 set_include_path(realpath(dirname(__FILE__) . '/inc'));
 
 /**
@@ -8,7 +7,7 @@ set_include_path(realpath(dirname(__FILE__) . '/inc'));
  * 
  */
 /*
-require_once 'inc/Zend/Date.php';
+require_once 'Zend/Date.php';
 
 $date = new Zend_Date();
 
@@ -49,7 +48,7 @@ echo $setDate . '<br /><br />';
  * Date comparison
  */
 /*
-require_once 'inc/Zend/Date.php';
+require_once 'Zend/Date.php';
 
 $date = new Zend_Date();
 //$date->addMinute(10);
@@ -77,7 +76,7 @@ if ($date->compare(10, Zend_Date::MINUTE) == -1) {
  * 
  */
 /*
-require_once 'inc/Zend/Date.php';
+require_once 'Zend/Date.php';
 
 $date = new Zend_Date();
 

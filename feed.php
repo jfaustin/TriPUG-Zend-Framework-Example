@@ -7,7 +7,7 @@ set_include_path(realpath(dirname(__FILE__) . '/inc'));
  * 
  */
 /*
-require_once 'inc/Zend/Feed.php';
+require_once 'Zend/Feed.php';
 
 $feed = array(
 	'title'   => 'My RSS Feed',
@@ -50,7 +50,7 @@ $rssFeed->send();
  * 
  */
 /*
-require_once 'inc/Zend/Feed/Rss.php';
+require_once 'Zend/Feed/Rss.php';
 
 $awesome = new Zend_Feed_Rss('http://www.jasonawesome.com/feed');
 
